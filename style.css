@@ -1,0 +1,4 @@
+sapBtn.addEventListener("click",function(){
+    newsType.innerHTML="<h4>SAP News</h4>";
+    fetchSAPNews(country, API_KEY);
+});
